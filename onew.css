@@ -3,12 +3,26 @@ body {
 }
 .no-underline {
     text-decoration: none; /* เอาเส้นใต้ */
-    color: rgb(255, 255, 255);   
+    color: rgb(255, 255, 255);
     font-family:th sarabun new ;       
 }
-      
+.m1 {
+    font-family:th sarabun new ; 
+    color: rgb(255, 255, 255); 
+}
+.o3 { font-family:th sarabun new ; 
+    color: rgb(255, 255, 255); 
+    font-size: 24px;
+}
 
+.rt  {
+  text-align:center; /* จัดภาพให้อยู่กึ่งกลางแนวนอน */
+}
 
+.rt img {
+  width: 350px;   /* กำหนดความกว้างรูป */
+  height: auto;   /* ให้สัดส่วนไม่เพี้ยน */
+}
 .box0001 {
     width: 100%;
     height: 60px;
@@ -78,6 +92,23 @@ body {
     flex-direction: column;   /* จัด h1 บน p */
     justify-content: flex-start;
     color: rgb(255, 255, 255);
+}
+.image-box {
+  text-align:center; /* จัดภาพให้อยู่กึ่งกลางแนวนอน */
+}
+
+.image-box img {
+  width: 400px;   /* กำหนดความกว้างรูป */
+  height: auto;   /* ให้สัดส่วนไม่เพี้ยน */
+}
+
+
+
+.image-box .credit {
+  font-size: 12px;   /* ตัวเล็ก */
+  color: #ffffff;       /* สีเทาอ่อน */
+  margin-top: 5px;   /* เว้นช่องนิดเดียวจากรูป */
+  font-style: italic; /* เอียงเล็กน้อย (จะดูเป็นเครดิต) */
 }
 
 
