@@ -33,6 +33,7 @@ body {
   width: 350px;   /* กำหนดความกว้างรูป */
   height: auto;   /* ให้สัดส่วนไม่เพี้ยน */
 }
+/* แถบเมนู */
 .box0001 {
     width: 100%;
     height: 60px;
@@ -40,7 +41,7 @@ body {
     font-family:th sarabun new ;
 
 }
-/* แถบเมนู */
+
 .box0001 {
     background-color: #073763;
     color: white;
@@ -57,7 +58,7 @@ body {
     justify-content: flex-start;/* ชิดซ้าย */
     gap: 20px;                  /* ระยะห่างระหว่างลิงก์ */
     padding-left: 20px;         /* ระยะเว้นขอบซ้าย */
-     font-family:th sarabun new ;
+    font-family:th sarabun new ;
 
 }
 
@@ -76,6 +77,7 @@ body {
 }
 
 /* จบ */
+ /* เนื้อหาใน geoloyy */
 .n23 {
     width: 100%;
     height: 500px;
@@ -86,7 +88,7 @@ body {
     align-items: center;            /* กึ่งกลางแนวตั้ง */
     padding: 0 20px;                /* เว้นขอบซ้ายขวา */
 }
- /* เนื้อหาใน geoloyy */
+
 .d {
     display: flex;            /* จัดแนวนอน: ภาพซ้าย ข้อความขวา */
     align-items: flex-start;  /* ข้อความอยู่ด้านบนของกล่อง */
@@ -164,6 +166,54 @@ body {
   margin-top: 5px;   /* เว้นช่องนิดเดียวจากรูป */
   font-style: italic; /* เอียงเล็กน้อย (จะดูเป็นเครดิต) */
 }
+.wow007{
+    width: 100%;
+    height: 500px;
+    
+}
+.wow007 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;             
+    padding: 0 20px;
+    /* background-color: antiquewhite; สีพื้นหลัง */
+}
+
+.wow0078 {
+    display: flex;            
+    justify-content: center;   /* จัดกึ่งกลางแนวนอน */
+    align-items: center;       /* จัดกึ่งกลางแนวตั้ง */
+    padding: 0;                /* เอา padding ออก ถ้าอยากให้ภาพเต็ม */
+    width: 50%;                /* กำหนดความกว้างกล่อง */
+    height: 400px;             /* กำหนดความสูงกล่อง */
+    overflow: hidden;          /* ซ่อนส่วนเกินของภาพ */
+}
+
+.wow0078 img {
+    width: 100%;               /* ขยายเต็มความกว้างกล่อง */
+    height: 100%;              /* ขยายเต็มความสูงกล่อง */
+    object-fit: cover;         /* ครอบภาพเต็มกล่องโดยไม่บิดสัดส่วน */
+}
+
+
+.wow0079 {
+    display: flex;            
+    justify-content: center;   /* จัดกึ่งกลางแนวนอน */
+    align-items: center;       /* จัดกึ่งกลางแนวตั้ง */
+    padding: 0;                /* เอา padding ออก ถ้าอยากให้ภาพเต็ม */
+    width: 50%;                /* กำหนดความกว้างกล่อง */
+    height: 400px;             /* กำหนดความสูงกล่อง */
+    overflow: hidden;          /* ซ่อนส่วนเกินของภาพ */
+}
+.wow0079 img {
+    width: 512px;               /* ขยายเต็มความกว้างกล่อง */
+    height: 410px;              /* ขยายเต็มความสูงกล่อง */
+    object-fit: cover;         /* ครอบภาพเต็มกล่องโดยไม่บิดสัดส่วน */
+}
+
+
 
 
 
