@@ -10,10 +10,20 @@ body {
     font-family:th sarabun new ; 
     color: rgb(255, 255, 255); 
 }
-.o3 { font-family:th sarabun new ; 
-    color: rgb(255, 255, 255); 
+.o3 {
+    font-family: "TH Sarabun New", sans-serif;
+    color: rgb(255, 255, 255);
     font-size: 24px;
 }
+.o3 .highlight {
+    font-size: 24px;}
+
+    .img01 {
+    display: block;   /* ทำให้ img เป็น block element */
+    margin: 0 auto;   /* ทำให้ภาพอยู่ตรงกลาง */
+}
+
+
 
 .rt  {
   text-align:center; /* จัดภาพให้อยู่กึ่งกลางแนวนอน */
@@ -27,21 +37,45 @@ body {
     width: 100%;
     height: 60px;
     background-color: rgb(11,83,148);
-    
+    font-family:th sarabun new ;
 
 }
-.box0001 h1 {
-    color: rgb(255, 255, 255);
-    margin: 0%;
-    font-family: th sarabun new;
-    font-size: 50px;
+/* แถบเมนู */
+.box0001 {
+    background-color: #073763;
+    color: white;
+    padding: 15px 20px;   /* padding ซ้ายเพิ่ม 20px */
+    text-align: left;     /* ชิดซ้าย */
 }
 
 .box0002 {
     width: 100%;
     height: 45px;
     background-color: rgb(11,83,148);
+    display: flex;              /* จัดลิงก์ให้อยู่แนวนอน */
+    align-items: center;        /* จัดตรงกลางแนวตั้ง */
+    justify-content: flex-start;/* ชิดซ้าย */
+    gap: 20px;                  /* ระยะห่างระหว่างลิงก์ */
+    padding-left: 20px;         /* ระยะเว้นขอบซ้าย */
+     font-family:th sarabun new ;
+
 }
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-link:hover {
+    background-color: #0b5394;
+    border-radius: 5px;
+}
+
+/* จบ */
 .n23 {
     width: 100%;
     height: 500px;
@@ -52,7 +86,7 @@ body {
     align-items: center;            /* กึ่งกลางแนวตั้ง */
     padding: 0 20px;                /* เว้นขอบซ้ายขวา */
 }
-
+ /* เนื้อหาใน geoloyy */
 .d {
     display: flex;            /* จัดแนวนอน: ภาพซ้าย ข้อความขวา */
     align-items: flex-start;  /* ข้อความอยู่ด้านบนของกล่อง */
@@ -61,6 +95,16 @@ body {
     padding: 10px;
     width: 33.3%;
     height: 400px;}
+.d img {
+    width: 50%;               /* ภาพครึ่งหนึ่งของกล่อง */
+    height: 100%;
+    object-fit: cover;}
+.d .text {
+    width: 50%;               /* ข้อความครึ่งหนึ่งของกล่อง */
+    display: flex;
+    flex-direction: column;   /* จัด h1 บน p */
+    justify-content: flex-start;
+    color: rgb(255, 255, 255);}
 .h {
     display: flex;            /* จัดแนวนอน: ภาพซ้าย ข้อความขวา */
     align-items: flex-start;  /* ข้อความอยู่ด้านบนของกล่อง */
@@ -70,6 +114,16 @@ body {
     width: 33.3%;
     height: 400px;
 }
+.h img {
+    width: 50%;               /* ภาพครึ่งหนึ่งของกล่อง */
+    height: 100%;
+    object-fit: cover;}
+.h .text {
+    width: 50%;               /* ข้อความครึ่งหนึ่งของกล่อง */
+    display: flex;
+    flex-direction: column;   /* จัด h1 บน p */
+    justify-content: flex-start;
+    color: rgb(255, 255, 255);}
 .g {
     display: flex;            /* จัดแนวนอน: ภาพซ้าย ข้อความขวา */
     align-items: flex-start;  /* ข้อความอยู่ด้านบนของกล่อง */
@@ -110,7 +164,6 @@ body {
   margin-top: 5px;   /* เว้นช่องนิดเดียวจากรูป */
   font-style: italic; /* เอียงเล็กน้อย (จะดูเป็นเครดิต) */
 }
-
 
 
 
